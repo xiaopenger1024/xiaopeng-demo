@@ -31,9 +31,9 @@ export default function Home() {
           </p>
 
           <p className="text-lg text-slate-600 dark:text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-            7年+技术开发经验，专注于医疗电子与消费电子嵌入式开发<br />
+            7年+嵌入式软件开发经验的自动化工程师，专注于医疗电子与消费电子<br />
             高级架构设计师，致力于推动公司嵌入式架构设计规范化<br />
-            同时致力于 AI 技术学习应用，通过AI编程与AI智能体提效
+            致力于 AI 技术学习应用，通过 AI 编程+智能体提效
           </p>
 
           <div className="flex gap-4 justify-center flex-wrap">
@@ -67,7 +67,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-slate-800 dark:text-slate-100">嵌入式开发</h3>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                精通 MCU固件开发、RTOS应用等，拥有大型应用架构设计经验。专注于医疗电子与消费电子领域的嵌入式系统开发。
+                精通多个平台的 MCU 固件开发、RTOS 应用等，拥有大型嵌入式系统开发经验。专注于医疗电子与消费电子领域。
               </p>
             </div>
 
@@ -77,7 +77,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-slate-800 dark:text-slate-100">AI 技术应用</h3>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                研究 AI 与工作流融合，专注 Claude Code、n8n 等开发应用，通过智能化工具提升开发效率。
+                研究 AI 与工作流融合，熟悉 AI 编程、智能体等开发应用，通过智能化工具提升开发效率。
               </p>
             </div>
 
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-slate-800 dark:text-slate-100">质量管理</h3>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                丰富的开发质量提升经验，善于规划技术方向和设计质量管控体系。
+                丰富的开发质量提升和工程经验，善于规划技术方向和设计质量管控体系。
               </p>
             </div>
           </div>
@@ -174,7 +174,8 @@ export default function Home() {
           </h2>
 
           <div className="max-w-2xl mx-auto space-y-6">
-            <a
+            {/* 公众号暂时隐藏 */}
+            {/* <a
               href="https://weixin.qq.com/r/mp/XiOttdXExIi7rZHW93ZM"
               target="_blank"
               rel="noopener noreferrer"
@@ -187,7 +188,7 @@ export default function Home() {
                 <div className="text-sm text-slate-500 dark:text-slate-400">公众号</div>
                 <div className="font-semibold text-slate-800 dark:text-slate-100">笑鹏的技术世界</div>
               </div>
-            </a>
+            </a> */}
 
             <div
               onClick={() => setShowWechatQR(!showWechatQR)}
