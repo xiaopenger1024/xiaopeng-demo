@@ -13,7 +13,7 @@ export default function Home() {
           <div className="mb-8 relative inline-block">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full blur-2xl opacity-30 animate-pulse"></div>
             <Image
-              src="/avatar.jpg"
+              src="/avatar.png"
               alt="笑鹏"
               width={200}
               height={200}
